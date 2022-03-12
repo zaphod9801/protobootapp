@@ -3,7 +3,7 @@ package co.edu.eafit.protobootapp;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-//Pruebas unitarias
+//Pruebas unitarias del proyecto
 public class TestCalculadora {
 
     //Pruebas unitarias para el cuadrado
