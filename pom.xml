@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.4.4</version>
+        <version>2.7.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>co.edu.eafit</groupId>
@@ -15,7 +15,7 @@
     <description>A simple demo app for Spring Boot.</description>
     
     <properties>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
     </properties>
     
     <dependencies>
@@ -39,7 +39,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
-                <version>3.1.2</version>
+                <version>3.2.0</version>
                 <configuration>
                     <configLocation>google_checks.xml</configLocation><!-- https://maven.apache.org/plugins/maven-checkstyle-plugin/ -->
                     <encoding>UTF-8</encoding>
@@ -60,7 +60,7 @@
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.8.7</version>
+                <version>0.8.8</version>
                 <executions>
                     <execution>
                         <goals>
@@ -99,7 +99,7 @@
             <plugin>
                 <groupId>com.github.spotbugs</groupId>
                 <artifactId>spotbugs-maven-plugin</artifactId>
-                <version>4.5.3.0</version>
+                <version>4.6.0.0</version>
                 <executions>
                     <execution>
                         <goals>
@@ -112,7 +112,7 @@
                         <plugin>
                             <groupId>com.h3xstream.findsecbugs</groupId>
                             <artifactId>findsecbugs-plugin</artifactId>
-                            <version>1.11.0</version>
+                            <version>1.12.0</version>
                         </plugin>
                     </plugins>
                 </configuration>
@@ -120,7 +120,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-pmd-plugin</artifactId>
-                <version>3.16.0</version>
+                <version>3.19.0</version>
                 <configuration>
                     <failOnViolation>true</failOnViolation>
                     <failurePriority>1</failurePriority>
