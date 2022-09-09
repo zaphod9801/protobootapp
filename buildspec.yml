@@ -47,7 +47,7 @@ phases:
 reports:
   jacoco-report:
     files:
-      - 'target/site/jacoco.xml'
+      - 'site/jacoco.xml'
     file-format: 'JACOCOXML'
       # - location
     #base-directory: location
