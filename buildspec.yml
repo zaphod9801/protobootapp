@@ -49,6 +49,10 @@ reports:
     files:
       - 'target/site/jacoco/jacoco.xml'
     file-format: 'JACOCOXML'
+  junit-report:
+    files:
+      - 'target/surefire-reports/*.xml'
+    file-format: 'JUNITXML'
       # - location
     #base-directory: location
     #discard-paths: yes
