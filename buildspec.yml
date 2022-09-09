@@ -44,10 +44,11 @@ phases:
       - mvn package
       - mv target/protobootapp-0.0.1-SNAPSHOT.jar root.jar
       # - command
-#reports:
-  #report-name-or-arn:
-    #files:
-      # - location
+reports:
+  jacoco-report:
+    files:
+      - 'target/site/jacoco.xml'
+    file-format: 'JACOCOXML'
       # - location
     #base-directory: location
     #discard-paths: yes
