@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class TestCalculadora {
 
     //Pruebas unitarias para el cuadrado
-    /*@Test
+    @Test
     public void testCuadradoPositivo() {
         Calculadora calc = new Calculadora();
         assertEquals(25.0, calc.cuadrado(5.0), 0);
@@ -29,7 +29,7 @@ public class TestCalculadora {
     public void testCuadradoNegativo() {
         Calculadora calc = new Calculadora();
         assertEquals(16.0, calc.cuadrado(-4.0), 0);
-    }*/
+    }
     
     //Pruebas unitarias para el cubo
     @Test
